@@ -21,6 +21,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PartA(1)", "PartA\", "{B9F7
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "64218"
+		SlnRelativePath = "PartA\"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PartB(1)", "PartB\", "{876A4D93-1C88-4527-87E3-5A4D3F9BE896}"
@@ -41,6 +42,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PartB(1)", "PartB\", "{876A
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "64225"
+		SlnRelativePath = "PartB\"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PartC(1)", "PartC\", "{21D27991-65E3-4D2D-AE1C-73B604D71804}"
@@ -61,6 +63,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PartC(1)", "PartC\", "{21D2
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "64226"
+		SlnRelativePath = "PartC\"
 	EndProjectSection
 EndProject
 Global
