@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PartA", "PartA", "{7C735B84-43B8-40C7-8695-C906C43FF0E9}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\JavascriptAssignment1\PartA\index.html = ..\..\JavascriptAssignment1\PartA\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PartB", "PartB", "{D790F478-CD75-4CE0-BF17-8AC7D30F2578}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\JavascriptAssignment1\PartA\index.html = ..\..\JavascriptAssignment1\PartA\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PartC", "PartC", "{4CAD91AE-051C-4150-ADAE-8EEBEE532DDF}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\JavascriptAssignment1\PartA\index.html = ..\..\JavascriptAssignment1\PartA\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{C18BA2FC-56BF-4326-BD99-AF2F871646F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{BC719CDF-1281-445F-A739-8EE4DBBE5F92}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\JavascriptAssignment1\PartA\scripts\javascript.js = ..\..\JavascriptAssignment1\PartA\scripts\javascript.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{D26A4CA6-0A40-4D56-977A-ECCC058FA079}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\JavascriptAssignment1\PartA\styles\style.css = ..\..\JavascriptAssignment1\PartA\styles\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D8C83C09-04AC-4A4C-8D4A-0322E5C45FED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{155A48CE-E637-4FCB-8E06-58C478DEA286}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\JavascriptAssignment1\PartA\scripts\javascript.js = ..\..\JavascriptAssignment1\PartA\scripts\javascript.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{8F26F8F3-DF8D-4E6A-8747-9C1019AFF1FB}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\JavascriptAssignment1\PartA\styles\style.css = ..\..\JavascriptAssignment1\PartA\styles\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{A27BBAAE-F2E8-48A6-AD52-D29CA4C24366}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{D1009F96-3290-4827-B663-E85677638E48}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\JavascriptAssignment1\PartA\scripts\javascript.js = ..\..\JavascriptAssignment1\PartA\scripts\javascript.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{18CE61CE-76DE-40D9-98C3-186016BA5457}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\JavascriptAssignment1\PartA\styles\style.css = ..\..\JavascriptAssignment1\PartA\styles\style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C18BA2FC-56BF-4326-BD99-AF2F871646F0} = {7C735B84-43B8-40C7-8695-C906C43FF0E9}
+		{BC719CDF-1281-445F-A739-8EE4DBBE5F92} = {7C735B84-43B8-40C7-8695-C906C43FF0E9}
+		{D26A4CA6-0A40-4D56-977A-ECCC058FA079} = {7C735B84-43B8-40C7-8695-C906C43FF0E9}
+		{D8C83C09-04AC-4A4C-8D4A-0322E5C45FED} = {D790F478-CD75-4CE0-BF17-8AC7D30F2578}
+		{155A48CE-E637-4FCB-8E06-58C478DEA286} = {D790F478-CD75-4CE0-BF17-8AC7D30F2578}
+		{8F26F8F3-DF8D-4E6A-8747-9C1019AFF1FB} = {D790F478-CD75-4CE0-BF17-8AC7D30F2578}
+		{A27BBAAE-F2E8-48A6-AD52-D29CA4C24366} = {4CAD91AE-051C-4150-ADAE-8EEBEE532DDF}
+		{D1009F96-3290-4827-B663-E85677638E48} = {4CAD91AE-051C-4150-ADAE-8EEBEE532DDF}
+		{18CE61CE-76DE-40D9-98C3-186016BA5457} = {4CAD91AE-051C-4150-ADAE-8EEBEE532DDF}
+	EndGlobalSection
+EndGlobal
