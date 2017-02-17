@@ -8,6 +8,7 @@
 function retrieveData() {
     for (var i = 0; i < localStorage.length; i++) {
         var book = JSON.parse(localStorage.getItem(localStorage.key(i)));
+        console.log(localStorage.key(i));
         document.getElementById('output').innerHTML += 'Book Name: ' + book.name + '<br/>' +
                                                          'Book ISBN: ' + book.isbn + '<br/>' +
                                                          'Book Publisher: ' + book.publisher + '<br/>' + '<br/>';

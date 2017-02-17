@@ -2,10 +2,38 @@
 <html>
 <head>
     <title>Part B - Shapes</title>
+    <meta charset="utf-8" />
 </head>
-
 <body>
+    <form>
+        <div id="colourPicker">
+            <label for="rectColour">Choose a colour</label>
+            <input id="rectColor" type="color" />
+        </div>
 
+        <div id="x">
+            <label for="xPicker">X Coordinates</label>
+            <input id="xPicker" type="text" />
+        </div>
+
+        <div id="y">
+            <label for="yPicker">Y Coordinates</</label>
+            <input id="yPicker" type="text" />
+        </div>
+
+        <div id="width">
+            <label for="widthPicker">Width</label>
+            <input id="widthPicker" type="text" />
+        </div>
+
+        <div id="height">
+            <label for="heightPicker">Height</label>
+            <input id="heightPicker" type="text" />
+        </div>
+
+        <input type="button" id="store" value="Store" />
+        <button id="render" formaction="Render.html">Go to Render Page</button>
+    </form>
     <script src="scripts/javascript.js"></script>
 </body>
 </html>
