@@ -8,12 +8,19 @@
 <body onload="retrieveData();">
     <div id="output"></div>
 
-    <div id="removeBook">
-        <label for="remove">Book Name:</label>
-        <input type="text" id="removeText" />
+    <div id="removeBookOne">
+        <label for="removeName">Book Name:</label>
+        <input type="text" id="removeName" />
+        <input type="button" id="removeOne" value="Remove Selected Book By Name" />
     </div>
+
+    <div id="removeBookTwo">
+        <label for="removeISBN">Book ISBN:</label>
+        <input type="text" id="removeISBN" />
+        <input type="button" id="removeTwo" value="Remove Selected Book By ISBN" />
+    </div>
+
     <input type="button" id="clear" value="Clear" />
-    <input type="button" id="remove" value="Remove Selected Book" />
 
     <script src="scripts/BookRetrieveScript.js"></script>
 </body>

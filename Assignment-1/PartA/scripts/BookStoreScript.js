@@ -9,11 +9,13 @@ function storeData() {
     var name = document.getElementById('bookName').value;
     var isbn = document.getElementById('bookISBN').value;
     var publisher = document.getElementById('bookPublisher').value;
-    //Implement more options to store by
+    var date = document.getElementById('bookDate').value;
+
     var book = {
         "name": name,
         "isbn": isbn,
-        "publisher": publisher
+        "publisher": publisher,
+        "date": date
     };
     localStorage.setItem(isbn, JSON.stringify(book));
 
