@@ -6,6 +6,7 @@
 })();
 
 function storeData() {
+    //Object for storing book
     var name = document.getElementById('bookName').value;
     var isbn = document.getElementById('bookISBN').value;
     var publisher = document.getElementById('bookPublisher').value;
@@ -18,11 +19,12 @@ function storeData() {
         "date": date
     };
     localStorage.setItem(isbn, JSON.stringify(book));
-
+    //Resets the form when the object is put into local storage
     document.getElementById('formData').reset();
 }
 
 function clearData() {
+    //Clears local storage
     localStorage.clear();
     location.reload();
 }

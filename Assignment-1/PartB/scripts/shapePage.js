@@ -6,6 +6,7 @@
 
 function storeData() {
     localStorage.clear();
+    //Sets the inner and outer colour
     var borderColour = document.getElementById('borderColour').value;
     var fillColour = document.getElementById('fillColour').value;
     var points = document.getElementById('points').value;
@@ -15,6 +16,7 @@ function storeData() {
     var objPoints = points;
 
     var canvas = {
+        //Object for canvas
         "objBorderColour": objBorderColour,
         "objFillColour": objFillColour,
         "objPoints": objPoints

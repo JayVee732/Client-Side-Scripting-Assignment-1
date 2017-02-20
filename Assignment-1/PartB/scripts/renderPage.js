@@ -32,6 +32,7 @@ function drawStar(cx, cy, spikes, outerRadius, innerRadius, borderColour, fillCo
     ctx.moveTo(cx, cy - outerRadius)
 
     for (var i = 0; i < spikes; i++) {
+        //Creates all the points on the star, depending on how many were seleted
         x = cx + Math.cos(rot) * outerRadius;
         y = cy + Math.sin(rot) * outerRadius;
         ctx.lineTo(x, y)
@@ -51,6 +52,7 @@ function drawStar(cx, cy, spikes, outerRadius, innerRadius, borderColour, fillCo
     ctx.fill();
 }
 
+//Creates the drag and drop functions
 function drag(ev) {
     ev.dataTransfer.setData("text", ev.target.id);
 }

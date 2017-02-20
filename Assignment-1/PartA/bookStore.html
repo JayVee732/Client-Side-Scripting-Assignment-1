@@ -2,13 +2,15 @@
 <html id="storePage">
 <head>
     <meta charset="utf-8">
-    <title>Book Exercise - Store</title>
+    <title>Part A - Store</title>
     <link href="styles/style.css" rel="stylesheet" />
 </head>
 
 <body>
     <form id="formData">
-        <h1>Enter Book Details</h1>
+        <div id="heading">
+            <h1>Enter Book Details</h1>
+        </div>
 
         <div id="BookName">
             <label for="bookName">Book Name:</label>
@@ -31,9 +33,9 @@
         </div>
 
         <div class="button">
-            <input type="button" id="store" value="Store" />
-            <input type="button" id="clear" value="Clear" />
-            <button id="retrieve" formaction="bookRetrieve.html">Go to Retrieve Book Page</button>
+            <input type="button" id="store" class="button-success" value="Store" />
+            <input type="button" id="clear" class="button-error" value="Clear" />
+            <button id="retrieve" class="button-secondary" formaction="bookRetrieve.html">Go to Retrieve Book Page</button>
         </div>
     </form>
     <script src="scripts/BookStoreScript.js"></script>

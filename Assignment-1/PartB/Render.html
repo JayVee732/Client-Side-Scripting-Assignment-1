@@ -7,11 +7,11 @@
 </head>
 <body onload="renderShape();">
     <div><canvas id="output" draggable="true" ondragstart="drag(event)"></canvas></div>
-
+    <!--The canvas can be dragged here-->
     <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
         <p>Delete your creation (Drag here)</p>
     </div>
-
+    <!--Audio file for when the file is deleted-->
     <audio id="audioFiles">
         <source src="audio/delete.mp3" type="audio/mp3">
     </audio>
