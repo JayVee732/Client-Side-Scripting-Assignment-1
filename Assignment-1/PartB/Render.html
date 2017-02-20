@@ -6,9 +6,16 @@
     <link href="styles/style.css" rel="stylesheet" />
 </head>
 <body onload="renderShape();">
-    <div>
-        <canvas id="output"></canvas>
+    <div><canvas id="output" draggable="true" ondragstart="drag(event)"></canvas></div>
+
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <p>Delete your creation (Drag here)</p>
     </div>
+
+    <audio id="audioFiles">
+        <source src="audio/delete.mp3" type="audio/mp3">
+    </audio>
+
     <script src="scripts/renderPage.js"></script>
 </body>
 </html>

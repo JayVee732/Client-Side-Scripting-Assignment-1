@@ -1,7 +1,10 @@
 'use strict';
 
-function renderShape() {
+function allowDrop(ev) {
+    ev.preventDefault();
+}
 
+function renderShape() {
     var c = document.getElementById('output');
     var ctx = c.getContext('2d');
 
@@ -12,7 +15,6 @@ function renderShape() {
         var points = canvas.objPoints;
         console.log(borderColour, fillColour, points);
     }
-    
     drawStar(125, 75, points, 30, 15, borderColour, fillColour);
 }
 
@@ -47,7 +49,34 @@ function drawStar(cx, cy, spikes, outerRadius, innerRadius, borderColour, fillCo
     ctx.stroke();
     ctx.fillStyle = fillColour;
     ctx.fill();
+}
 
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    removeDiv();
+}
+
+function removeDiv() {
+    playAudio();
+    var canvasDiv = document.getElementById('output');
+    canvasDiv.parentNode.removeChild(canvasDiv);
+
+    var deleteDiv = document.getElementById('div1');
+    deleteDiv.parentNode.removeChild(deleteDiv);
+
+    localStorage.clear();
+}
+
+function playAudio() {
+    var x = document.getElementById("audioFiles");
+    x.play();
 }
 
 //Function code for drawStar taken from https://jsfiddle.net/m1erickson/8j6kdf4o/
+//Code in deleteDiv https://stackoverflow.com/questions/11080620/how-to-remove-div-elements-in-javascript-using-their-id
+//audio code: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_audio_play
