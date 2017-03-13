@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Part A - Retrieve</title>
+    <link href="styles/style.css" rel="stylesheet" />
+</head>
+<!--Once the page loads, the function will be called-->
+<body onload="retrieveData();"> 
+    <div id="output"></div>
+    <!--Books can be deleted by typing name or ISBN-->
+    <div id="removeBookOne">
+        <label for="removeName">Book Name:</label>
+        <input type="text" id="removeName" />
+        <input type="button" id="removeOne" value="Remove Selected Book By Name" />
+    </div>
+
+    <div id="removeBookTwo">
+        <label for="removeISBN">Book ISBN:</label>
+        <input type="text" id="removeISBN" />
+        <input type="button" id="removeTwo" value="Remove Selected Book By ISBN" />
+    </div>
+    <!--Clears all local storage-->
+    <input type="button" id="clear" value="Clear" />
+
+    <script src="scripts/BookRetrieveScript.js"></script>
+</body>
+</html>

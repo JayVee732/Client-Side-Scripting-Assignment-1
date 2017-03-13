@@ -1,33 +1,43 @@
-<!--Here's a comment for testing-->
-
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html id="storePage">
 <head>
-    <title>Book Store</title>
+    <meta charset="utf-8">
+    <title>Part A - Store</title>
+    <link href="styles/style.css" rel="stylesheet" />
 </head>
 
 <body>
-    <form>
-        <h1>Enter Book Details</h1>
+    <form id="formData">
+        <div id="heading">
+            <h1>Enter Book Details</h1>
+        </div>
 
         <div id="BookName">
-            <label for="name">Book Name:</label>
+            <label for="bookName">Book Name:</label>
             <input type="text" id="bookName" />
         </div>
 
         <div id="BookISBN">
-            <label for="isbn">Book ISBN:</label>
+            <label for="bookISBN">Book ISBN:</label>
             <input type="text" id="bookISBN" />
         </div>
 
         <div id="BookPublisher">
-            <label for="publisher">Book Publisher:</label>
+            <label for="bookPublisher">Book Publisher:</label>
             <input type="text" id="bookPublisher" />
         </div>
 
+        <div id="BookDate">
+            <label for="bookDate">Book Date:</label>
+            <input type="date" id="bookDate" />
+        </div>
+
         <div class="button">
-            <input type="button" id="store" value="Store" />
+            <input type="button" id="store" class="button-success" value="Store" />
+            <input type="button" id="clear" class="button-error" value="Clear" />
+            <button id="retrieve" class="button-secondary" formaction="bookRetrieve.html">Go to Retrieve Book Page</button>
         </div>
     </form>
+    <script src="scripts/BookStoreScript.js"></script>
 </body>
 </html>

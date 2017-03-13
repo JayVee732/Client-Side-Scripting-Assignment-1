@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: black;
+    background-color:forestgreen;
+    line-height: 14pt;
+    padding-left: 5pt;
+    padding-right: 5pt;
+    padding-top: 5pt;
+}
+
+canvas {
+    border:1px solid red;
+}
+
+#div1 {
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    margin: auto;
+}
+
+#heading {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    background-size:auto;
+}
+
+form, #output {
+    background-color: darkseagreen;
+}
+
+.button-success,
+.button-error,
+.button-secondary {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-success {
+    background: rgb(28, 184, 65);
+}
+
+.button-error {
+    background: rgb(202, 60, 60);
+}
+
+.button-secondary {
+    background: rgb(66, 184, 221);
+}
+/*Button Colours taken from: https://purecss.io/buttons/ */
